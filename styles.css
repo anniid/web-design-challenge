@@ -8,27 +8,3 @@ body {
     margin-bottom: 100px;
 }
 
-.navbar-annii{
-    background-color: darkgray;
-}
-#logo{
-    height: 50px;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    margin-left: 50px;
-    font-size:24px;
-    font-weight: bold;
-    background-color: #F6BC00;
-    color: white;}
-#logo:hover {
-    opacity: .6;
-}
-
-.navbar-right-annii {
-    padding-top: 5px;
-    padding-right: 25px;
-
-}
-.navbar-default .navbar-nav > li > a:hover {
-    color: #F6BC00;
-  }
