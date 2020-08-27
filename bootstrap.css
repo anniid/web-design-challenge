@@ -170,6 +170,7 @@ a {
 a:hover {
   color: #2aa198;
   text-decoration: underline;
+  background-color: #f0cc03;
 }
 
 a:not([href]):not([class]) {
@@ -4600,8 +4601,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: rgba(255, 255, 255, 0.75);
-  background-color: #002b36;
+  background-color: #033846;
   border-color: #073642;
 }
 
@@ -4617,8 +4617,7 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: rgba(255, 255, 255, 0.75);
-  background-color: #073642;
+  background-color: #033846;
 }
 
 .nav-fill > .nav-link,
@@ -4690,6 +4689,9 @@ input[type="button"].btn-block {
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
+  background-color: #f0cc03;
+  padding-left:10px;
+  padding-right:10px;
 }
 
 .navbar-nav {
@@ -4744,6 +4746,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
+  background-color: #f0cc03
 }
 
 .navbar-toggler-icon {
@@ -5022,7 +5025,7 @@ j
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.7);
+  background-color: #033846;
 }
 
 .navbar-light .navbar-toggler {
@@ -5043,7 +5046,8 @@ j
 }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.7);
+  background-color: #f0cc03;
+  
 }
 
 .navbar-dark .navbar-brand {
@@ -5070,7 +5074,7 @@ j
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  background-color: #033846
 }
 
 .navbar-dark .navbar-toggler {
@@ -5091,7 +5095,7 @@ j
 }
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  background-color: #f0cc03;
 }
 
 .card {
